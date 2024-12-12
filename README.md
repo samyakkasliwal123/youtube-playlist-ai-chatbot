@@ -1,5 +1,24 @@
-# Youtube playlist AI chatbot
-Quickly summarizes the contents of youtube videos in a public playlist and answers questions based on it.
+#  YouTube Playlist AI Chatbot 🤖🎥
+Quickly summarizes the contents of YouTube videos in a public playlist and answers questions based on it.
+
+## Workflow
+1. **Fetch Transcripts**  
+   Extract video transcripts from a YouTube playlist.  
+   ![Fetching Transcripts](https://cdn.prod.website-files.com/634e7aa49f5b025e1fd9e87b/664e41b6eda3d7487ae3c577_descript_s_youtube_description_generator_writing_a_2e1c.webp)
+
+2. **Data Cleaning**  
+   Remove unnecessary data for clean processing.  
+   ![Cleaning Process](https://datascientest.com/en/files/2023/04/illu_data_cleaning_blog_2-07.jpg)
+
+3. **Chunk and Generate Embeddings**  
+   Split transcripts into manageable chunks and use embeddings for semantic understanding.  
+   ![Embeddings](https://miro.medium.com/v2/resize:fit:717/1*2G5plo83o4l9PcriBG4ncA.png)
+
+4. **AI-Powered Responses**  
+   Use RAG (Retrieval Augmented Generation) model for chatbot conversations.  
+   ![Chatbot Interaction](https://pub-e93d5c9fdf134c89830082377f6df465.r2.dev/2024/02/The-RAG-Processs-1024x356.webp)
+
+
 # Demo
 Working of the tool
 [Screencast from 14-04-24 08:31:23 AM IST.webm](https://github.com/SaumyaRR8/Youtube-playlist-chat/assets/97652981/0874ecb1-3bb8-4369-9b2c-eead3b039546)
@@ -26,3 +45,12 @@ TEMPERATURE=0.0
 3. Create an [OpenAI](https://openai.com/) account and generate a new API Key: To access the OpenAI API, you will need to create an API Key. You can do this by logging into the [OpenAI website](https://openai.com/product) and navigating to the API Key management page.
 
 Then, follow the easy steps to install and get started using the app.
+
+
+## Features 🌟
+- [x] Fetch YouTube transcripts
+- [x] Clean and preprocess data
+- [x] Generate embeddings
+- [x] Interactive chatbot using RAG models
+
+
