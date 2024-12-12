@@ -1,6 +1,15 @@
 #  YouTube Playlist AI Chatbot 🤖🎥
 Quickly summarizes the contents of YouTube videos in a public playlist and answers questions based on it.
 
+## Brief Summary
+This project focuses on building an AI-powered chatbot that interacts with YouTube playlists, offering intelligent insights and conversational capabilities for video content. The pipeline involves transcript processing, embedding generation, and retrieval-based augmented generation (RAG) for natural language responses.
+
+<div style="display: flex; justify-content: space-between;">
+   <img src="https://avatars.githubusercontent.com/u/25750857?s=200&v=4" alt="Image 1" style= "width: 30%; height: auto;"/> 
+   <img src="https://www.docker.com/wp-content/uploads/2023/08/logo-guide-logos-1.svg" alt="Image 1" style = "width: 30%; height: auto;"/>
+    <img src="https://w1.pngwing.com/pngs/835/530/png-transparent-python-logo-programming-language-computer-programming-python-programming-basics-for-absolute-beginners-scripting-language-source-code-php-code-climate-inc.png" alt="Image 2" style = "width: 30%; height: auto;"/>
+</div>
+
 ## Workflow
 1. **Fetch Transcripts**  
    Extract video transcripts from a YouTube playlist.  
